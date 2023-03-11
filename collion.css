@@ -328,14 +328,24 @@ html{
   
 }
 
-@media (max-width:493px) {
+@media(min-width:200px) and (max-width:493px) {
   html{
-    font-size: 30%;
+    font-size: 20%;
+    margin: 0rem 1rem;
+    padding:0rem 1rem;
   }
   .logo img{
-    margin-top: 2rem;
-    margin-left: 10rem;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 7rem;
   }
+  .logo-space img{
+    width: 4rem;
+    height: 4rem;
+
+  }
+
 
 }
 
