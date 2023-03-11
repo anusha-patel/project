@@ -328,4 +328,15 @@ html{
   
 }
 
+@media (max-width:493px) {
+  html{
+    font-size: 30%;
+  }
+  .logo img{
+    margin-top: 2rem;
+    margin-left: 10rem;
+  }
+
+}
+
 
