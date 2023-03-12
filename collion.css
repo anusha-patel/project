@@ -334,6 +334,48 @@ html{
     margin: 0rem 1rem;
     padding:0rem 1rem;
   }
+  .hero{
+    height: 60vh;
+  }
+
+  .container{
+    height: 60vh;
+  }
+  /* Next & previous buttons */
+.prev,
+.next {
+  top: 60%;
+  padding: 4px;
+  margin-top: -30px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.text img{
+  width: 4rem;
+  height: 4rem;
+
+}
+
+  .last{
+    height: 60vh;
+  }
+
+  .schedule {
+    width: 30%;
+    height: 25vh;
+    background-color: #eae6e0;
+    opacity: 1.6;
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: 20rem;
+    padding: 1em;
+    color: #2e2d2d;
+  
+  }
   .logo img{
     width: 4rem;
     height: 4rem;
